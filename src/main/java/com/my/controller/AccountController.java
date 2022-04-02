@@ -24,6 +24,7 @@ public class AccountController {
     @RequestMapping(value = "/save", produces = "text/html;charset=UTF-8")
     @ResponseBody
     public String save(Account account){
+        System.out.println("hello");
         accountService.save(account);
         return "保存成功";
     }
