@@ -25,6 +25,7 @@ public class AccountController {
     @ResponseBody
     public String save(Account account){
         System.out.println("hello");
+        System.out.println("hot fix");
         accountService.save(account);
         return "保存成功";
     }
