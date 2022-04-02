@@ -26,6 +26,7 @@ public class AccountController {
     public String save(Account account){
         System.out.println("hello");
         System.out.println("hot fix");
+        System.out.println("master test");
         accountService.save(account);
         return "保存成功";
     }
